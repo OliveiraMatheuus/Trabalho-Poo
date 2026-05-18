@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Drawing;
 using System.Xml.Linq;
 
 namespace Trabalho
@@ -27,7 +28,7 @@ namespace Trabalho
             {
                 if (name == "A")
                 {
-                    this.Value = 11;
+                    this.Value = 0;
                 }
                 else if (name == "J" || name == "Q" || name == "K")
                 {
