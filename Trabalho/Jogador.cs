@@ -6,14 +6,16 @@ namespace Trabalho
 {
     internal class Jogador
     {
-        private List<Carta> mao = null;
+        private List<Carta> mao = new List<Carta>();
         private int _pontos = 0;
 
-        public Jogador() 
+        public Jogador(Carta x , Carta y) 
         {
             this.Pontos = 0;
-            this.Mao = new List<Carta>();
+            this.Mao.Add(x);
+            this.Mao.Add(y);
         }
+        public Jogador(){ }
 
         public void pontuar()
         {

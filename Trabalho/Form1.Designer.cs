@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             panelmenu = new Panel();
-            button1 = new Button();
-            button2 = new Button();
             label1 = new Label();
+            button2 = new Button();
+            button1 = new Button();
             panelmenu.SuspendLayout();
             SuspendLayout();
             // 
@@ -46,24 +46,6 @@
             panelmenu.Size = new Size(799, 458);
             panelmenu.TabIndex = 0;
             // 
-            // button1
-            // 
-            button1.Location = new Point(325, 235);
-            button1.Name = "button1";
-            button1.Size = new Size(123, 52);
-            button1.TabIndex = 0;
-            button1.Text = "2_Jogadores";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(317, 340);
-            button2.Name = "button2";
-            button2.Size = new Size(131, 49);
-            button2.TabIndex = 1;
-            button2.Text = "4_Jogadores";
-            button2.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -74,7 +56,24 @@
             label1.Size = new Size(148, 45);
             label1.TabIndex = 2;
             label1.Text = "Blackjack";
-            label1.Click += label1_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(317, 340);
+            button2.Name = "button2";
+            button2.Size = new Size(131, 49);
+            button2.TabIndex = 1;
+            button2.Text = "4_Jogadores";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(325, 235);
+            button1.Name = "button1";
+            button1.Size = new Size(123, 52);
+            button1.TabIndex = 0;
+            button1.Text = "2_Jogadores";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

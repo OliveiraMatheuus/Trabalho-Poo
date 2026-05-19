@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Diagnostics;
 using System.Drawing; 
 using System.IO;      
+using System.Text;
 using System.Windows.Forms;
 
 namespace Trabalho
@@ -27,6 +28,7 @@ namespace Trabalho
                 }
             }
 
+            this.Embaralhar();
 
         }
 
@@ -53,6 +55,8 @@ namespace Trabalho
             Cartas.RemoveAt(Cartas.Count - 1);
             return carta;
         }
+
+        public void qtd_cartas() { MessageBox.Show($"Qtd Cartas :{this.Cartas.Count}"); }
 
         public List<Carta> Cartas { get => _cartas; set => _cartas = value; }
     }
